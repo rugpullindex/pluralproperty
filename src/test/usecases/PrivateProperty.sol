@@ -10,7 +10,7 @@ contract PrivateProperty is ERC721, PluralProperty {
   using Counters for Counters.Counter;
   Counters.Counter private _tokenIds;
 
-  constructor() ERC721("Private Property", "SB") {
+  constructor() ERC721("Private Property", "PP") {
   }
 
   function transferFrom(
