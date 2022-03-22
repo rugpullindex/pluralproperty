@@ -2,9 +2,9 @@
 pragma solidity ^0.8.6;
 
 import {ERC721} from "openzeppelin-contracts/token/ERC721/ERC721.sol";
-import {IPPController} from "./interfaces/IPPController.sol";
+import {IPluralProperty} from "./interfaces/IPluralProperty.sol";
 
-abstract contract PluralProperty is ERC721, IPPController {
+abstract contract PluralProperty is ERC721, IPluralProperty {
   function onTransferFrom(
     address from,
     address to,
