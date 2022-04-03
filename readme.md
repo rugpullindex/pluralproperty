@@ -1,3 +1,4 @@
+# ⚠️ deprecated and moved to [rugpullindex/libharberger](https://github.com/rugpullindex/libharberger)
 # Plural Property
 
 The concept of Plural Property originates from the work of the Partial Common
